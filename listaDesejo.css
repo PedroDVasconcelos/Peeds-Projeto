@@ -1,0 +1,338 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    height: auto;
+    width: 100%;
+    background-color: #7CC44C;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    padding-bottom: 3vh;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.a-hover:hover{
+    border-bottom: 1px solid #43692a;
+    display: inline-block;
+    padding-bottom: 4px;
+    transition: border-color 0.2s ease;
+}
+.doistercos-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logopeeds{
+    height: 60%;
+}
+
+.div-input-header{
+    display: flex;
+    width: auto;
+    position: relative;
+    margin-right: 10vh;
+}
+
+header input{
+    border-radius: 100px;
+    background-color: #C0E0BD;
+    padding: 14px;
+    border: none;
+    outline: none;
+    width: 60vh;
+}
+
+.div-input-header img{
+    height: 24px;
+    position: absolute;
+    right: 0;
+    margin-top: 3px;
+    margin-right: 3px;
+    border-left: 2px solid #ffffff;
+    padding: 6px;
+}
+
+nav{
+    display: flex;
+}
+
+.umterco{
+    display: flex;
+}
+
+.umterco a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul hr{
+    height: 30px;
+    width: 1px;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.sementesA:hover .tipagemSementes{
+    display: block;
+    transition: 0.5s ease;
+}
+
+.tipagemSementes{
+    position: absolute;
+    background-color: #ffffff;
+    height: auto;
+    width: auto;
+    border-radius: 50px;
+    padding: 40px 40px 20px 15px;
+    border: 5px solid #43692a;
+    left: 404px;
+    top: 191px;
+    display: none;
+    transition: opacity 0.25s ease;
+}
+
+.tipagemSementes ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tipagemSementes li{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 25px;
+    border-bottom: 3px solid transparent;
+}
+
+.tipagemSementes li:hover{
+    border-bottom: 3px dotted #7cc44c;
+    transition: 0.3s ease;
+}
+
+.tipagemSementes a{
+    margin: 0;
+    color: #7cc44c;
+    text-decoration: none;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+}
+
+header li{
+    margin-right: 10vh;
+}
+
+.div-icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.div-heart{
+    display: flex;
+}
+
+.div-heart .heart-icon{
+    height: 32px;
+}
+
+.div-heart .one-heart--icon{
+    height: 23px;
+    position: absolute;
+    margin-left: 19px;
+    margin-top: -9px;
+}
+
+.kart{
+    height: 32px;;
+}
+
+/* main */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh;
+}
+
+#princ{
+    width: 160vh;
+    background-color: #f3f3f3;
+    padding: 12px;
+}
+
+.div-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 15%;
+    border: 3px solid #43692a;
+    margin-bottom: 2vh;
+}
+
+.div-input input{
+    width: 70%;
+    padding: 18px;
+    outline: none;
+    border: none;
+    margin: 20px;
+    border-radius: 100px;
+    font-size: 1.2em;
+}
+
+.div-input img{
+    height: 24px;
+    position: absolute;
+    right: 0;
+    margin-right: 23vh;
+    border-left: 1px solid;
+    padding: 10px;
+}
+
+.products-on{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    border: 3px solid #43692a;
+    align-items: center;
+}
+
+.products-on ul{
+    display: flex;
+    margin-left: 5vh;
+    flex-direction: column;
+}
+
+.produto-1part{
+    display: flex;
+    gap: 3vh;
+    align-items: center;
+}
+
+.produto-1part img{
+    height: 18vh;
+    border-radius: 50px;
+    border: 2px solid #43692a;
+}
+
+.status-product{
+    display: flex;
+    flex-direction: column;
+}
+
+.status-product h5{
+   font-size: 1.3em;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.status-product p{
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.products-on li{
+    display: flex;
+    width: 150vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reais-cheio{
+    color: red;
+    text-decoration: line-through;
+    font-weight: 800;
+}
+
+.reais-desconto{
+    color: #7cc44c;
+    font-weight: 800;
+}
+
+.hr-bet-products{
+    height: 18vh;
+}
+
+.fora-estoque{
+    font-family: "montserrat", sans-serif;
+    color: red;
+    font-weight: 800;
+    font-size: 1.4em;
+    margin-right: 15vh;
+    padding: 50px;
+}
+
+/* footer */
+
+footer{
+    background-color: #b4b4b4;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.adress-p{
+    line-height: 6vh;
+    text-align: center;
+    font-size: 20px;
+}
+
+.empresarial{
+    height: 35vh;
+}
+
+footer h4{
+    color: rgb(80, 79, 79);
+    font-size: 20px;
+    font-family: "montserrat", sans-serif;
+    margin: 0;
+    margin: 20px 0 20px 0
+}
+
+footer span{
+    color: rgb(80, 79, 79);
+    font-family: "montserrat", sans-serif;
+    font-size: 18px;
+}
+
+.gaveta{
+    font-family: "montserrat", sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+    line-height: 2.2;
+    margin: 0;
+}
+
+.gaveta:hover{
+    border-bottom-color: black;
+}
